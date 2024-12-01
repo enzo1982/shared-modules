@@ -14,8 +14,8 @@
         {
             "type": "git",
             "url": "https://github.com/zdoom/gzdoom.git",
-            "tag": "g4.13.0",
-            "commit": "1a699c08af6f68b1ff3c1179fcf3b4ce680d6909",
+            "tag": "g4.13.2",
+            "commit": "0c29e3a77880f3519cf2908d340e114964aba38e",
             "x-checker-data": {
                 "type": "anitya",
                 "project-id": 17531,
@@ -46,7 +46,7 @@
                         "project-id": 13277,
                         "stable-only": true,
                         "url-template": "https://github.com/libsndfile/libsndfile/releases/download/$version/libsndfile-$version.tar.xz"
-                  }
+                    }
                 }
             ]
         }
