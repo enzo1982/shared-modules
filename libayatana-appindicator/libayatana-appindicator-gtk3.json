@@ -91,8 +91,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/AyatanaIndicators/libayatana-indicator.git",
-                    "tag": "0.9.4",
-                    "commit": "611bb384b73fa6311777ba4c41381a06f5b99dad",
+                    "tag": "0.9.5",
+                    "commit": "0db7877be8c61953b50540183d5932ab159181f1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -105,8 +105,8 @@
         {
             "type": "git",
             "url": "https://github.com/AyatanaIndicators/libayatana-appindicator.git",
-            "tag": "0.5.93",
-            "commit": "238c8b02718fa5b4af95ede72beeed762094f4cc",
+            "tag": "0.6.1",
+            "commit": "836356daa20c833cbc051c77c6b4f97c94de5e61",
             "x-checker-data": {
                 "type": "git",
                 "tag-pattern": "^([\\d.]+)$"
