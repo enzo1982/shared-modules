@@ -6,7 +6,9 @@
     {
       "name": "sassc",
       "// NOTE": "This is used by Yaru, Greybird, and Materia",
-      "cleanup": ["*"],
+      "cleanup": [
+        "*"
+      ],
       "sources": [
         {
           "type": "archive",
@@ -15,13 +17,17 @@
         },
         {
           "type": "script",
-          "commands": ["autoreconf -si"]
+          "commands": [
+            "autoreconf -si"
+          ]
         }
       ],
       "modules": [
         {
           "name": "libsass",
-          "cleanup": ["*"],
+          "cleanup": [
+            "*"
+          ],
           "sources": [
             {
               "type": "archive",
@@ -30,7 +36,9 @@
             },
             {
               "type": "script",
-              "commands": ["autoreconf -si"]
+              "commands": [
+                "autoreconf -si"
+              ]
             }
           ]
         }
@@ -105,13 +113,17 @@
         },
         {
           "type": "shell",
-          "commands": ["sed -i 's|\"$srcdir/configure\" $@||' autogen.sh"]
+          "commands": [
+            "sed -i 's|\"$srcdir/configure\" $@||' autogen.sh"
+          ]
         }
       ],
       "modules": [
         {
           "name": "optipng",
-          "cleanup": ["*"],
+          "cleanup": [
+            "*"
+          ],
           "sources": [
             {
               "type": "archive",
@@ -136,8 +148,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.kde.org/stable/plasma/5.27.6/breeze-gtk-5.27.6.tar.xz",
-          "sha256": "ac2aab13b9224ddea6560fdbac9fe9d93a08a86787f95b95c43a95b134836bda",
+          "url": "https://download.kde.org/stable/plasma/6.8.0/breeze-gtk-6.8.0.tar.xz",
+          "sha256": "62046b9538e542a3682e195ac3409605cbaa16f03ffc78d1b7715de2a1e2409c",
           "dest": "breeze-gtk",
           "x-checker-data": {
             "type": "anitya",
@@ -148,8 +160,8 @@
         },
         {
           "type": "archive",
-          "url": "https://download.kde.org/stable/plasma/5.27.6/breeze-5.27.6.tar.xz",
-          "sha256": "5d9a8d7e5b061ce4183c4f842b0e82e6132b6c8e7ebc2c1d579baa066ffa6c6c",
+          "url": "https://download.kde.org/stable/plasma/6.8.0/breeze-6.8.0.tar.xz",
+          "sha256": "6bdb0547126ca259f88bb28868422364c6e0ae3e7b103479fac0df835ffde287",
           "dest": "breeze",
           "x-checker-data": {
             "type": "anitya",
@@ -162,7 +174,9 @@
       "modules": [
         {
           "name": "python3-cairo",
-          "cleanup": ["*"],
+          "cleanup": [
+            "*"
+          ],
           "buildsystem": "simple",
           "build-commands": [
             "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=\"${FLATPAK_DEST}\" pycairo"
@@ -170,8 +184,8 @@
           "sources": [
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/69/ca/9e9fa2e8be0876a9bbf046a1be7ee33e61d4fdfbd1fd25c76c1bdfddf8c4/pycairo-1.23.0.tar.gz",
-              "sha256": "9b61ac818723adc04367301317eb2e814a83522f07bbd1f409af0dada463c44c",
+              "url": "https://files.pythonhosted.org/packages/bb/5e/19ab2572981a996ce96b853a189d2dcced40506b67d9555a7568457abcf2/pycairo-1.29.2.tar.gz",
+              "sha256": "3e69fff74fe64f5ba2dfa31f67c6bdf26413342574047437d2ac520d35e9a489",
               "x-checker-data": {
                 "type": "pypi",
                 "name": "pycairo"
@@ -179,8 +193,8 @@
             },
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/25/f3/d68c20919bc774c6cb127f1762f2f2f999d700a58198556e883dd3700e58/setuptools-67.6.0.tar.gz",
-              "sha256": "2ee892cd5f29f3373097f5a814697e397cf3ce313616df0af11231e2ad118077",
+              "url": "https://files.pythonhosted.org/packages/6d/44/f5da03a8ef95d369145c5bb53050e7877c9f3d312e128605fd9504829143/setuptools-84.0.0.tar.gz",
+              "sha256": "f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73",
               "x-checker-data": {
                 "type": "pypi",
                 "name": "setuptools"
@@ -188,8 +202,8 @@
             },
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/a2/b8/6a06ff0f13a00fc3c3e7d222a995526cbca26c1ad107691b6b1badbbabf1/wheel-0.38.4.tar.gz",
-              "sha256": "965f5259b566725405b05e7cf774052044b1ed30119b5d586b2703aafe8719ac",
+              "url": "https://files.pythonhosted.org/packages/d0/20/50ed6bdf27dec98b568a8ae25dc599f35baa3d9709f9e83fd1edb56b9a90/wheel-0.48.0.tar.gz",
+              "sha256": "94800765601e9171bf5d58d066e640662842bcedcbab982b2c90787a2c987322",
               "x-checker-data": {
                 "type": "pypi",
                 "name": "wheel"
