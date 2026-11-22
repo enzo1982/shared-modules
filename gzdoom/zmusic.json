@@ -7,14 +7,14 @@
     "sources": [
         {
             "type": "archive",
-            "url": "https://github.com/zdoom/ZMusic/archive/1.1.14.tar.gz",
-            "sha256": "f04410fe4ea08136f37703e7715c27df4c8532ace1e721cf40c6f303a93acc54",
+            "url": "https://github.com/zdoom/ZMusic/archive/1.3.0.tar.gz",
+            "sha256": "2eccd41e1cc9b38b3729ab94d65635719b2adc916de4ca9f8399ebceaee89f7f",
             "x-checker-data": {
                 "type": "anitya",
                 "project-id": 153600,
                 "stable-only": true,
                 "url-template": "https://github.com/zdoom/ZMusic/archive/$version.tar.gz"
-          }
+            }
         }
     ]
 }
